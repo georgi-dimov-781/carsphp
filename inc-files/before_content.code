@@ -1,0 +1,17 @@
+<?php session_start();
+define("dbHost", "localhost");
+define("dbUser", "root");
+define("dbPasswd", "");
+define("dbName", "carsdata_std3a");
+?>
+
+<doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Автокъща "Ретро"</title>
+<link href="inc-files/styles.css" rel="stylesheet" type="text/css"
+</head>
+<body>
+<?php include "inc-files/top.div"; ?>
+<?php include "inc-files/left.div"; ?>

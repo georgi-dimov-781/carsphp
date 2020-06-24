@@ -1,0 +1,15 @@
+#top { height: 120px; width:100%; margin:0px; padding-top:6px; padding-bottom:6px;
+border-bottom:2px solid #bb3333; background:#f0a030; color:#ff0000;}
+#left{width:10%; float:left; min-height:400px; padding-top:3px;}
+#content{width:90%; min-height:400px; padding-top:6px;float:left;}
+#bottom{width:100%; float:left; border-top:2px solid #bb3333; background:#f0a030; color:#ff0000;}
+
+#left ul {list-style-type:none}
+
+a:link {color:green}
+a:visited {color:green}
+a:active{color:green}
+
+.errMsg{
+	color:red;
+}

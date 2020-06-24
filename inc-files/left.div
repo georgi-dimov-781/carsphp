@@ -1,0 +1,14 @@
+<div id="left">
+<ul>
+<li><a href=".">Начало</a></li>
+<li><a href="list_cars.php" title="Списък на колите">Списък</a></li>
+<?php
+if(isset($_SESSION["username"]))
+if($_SESSION["usertype"]==1)
+{?>
+<li><a href="insert_car.php" title="Въвеждане на данни за кола">Добавяне</a></li>
+<li><a href="logout.php">Изход</a></li>
+<?php } ?>
+</ul>
+</div>
+
