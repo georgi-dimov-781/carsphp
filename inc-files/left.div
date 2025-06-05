@@ -2,6 +2,7 @@
 <ul>
 <li><a href=".">Начало</a></li>
 <li><a href="list_cars.php" title="Списък на колите">Списък</a></li>
+<li><a href="search_cars.php" title="Търсене">Търсене</a></li>
 <?php
 if(isset($_SESSION["username"]))
 if($_SESSION["usertype"]==1)
